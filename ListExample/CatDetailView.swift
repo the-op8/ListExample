@@ -1,6 +1,5 @@
 import SwiftUI
 
-
 struct CatDetailView: View {
   var name: String
   var weight: Int

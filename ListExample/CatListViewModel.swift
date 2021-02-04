@@ -8,9 +8,7 @@ struct CatListViewModel {
   ]
 
   var names: [String] {
-    get {
-      return cats.map { $0.name }
-    }
+    get { cats.map { $0.name } }
   }
 
   func weight(for name: String) -> Int? {

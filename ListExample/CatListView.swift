@@ -17,7 +17,7 @@ struct CatListView: View {
   }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct CatListView_Previews: PreviewProvider {
   static var previews: some View {
     CatListView()
   }
